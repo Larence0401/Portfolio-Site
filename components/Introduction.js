@@ -55,7 +55,7 @@ const Introduction = () => {
           <Link href="https://twitter.com/Lawrence0401/">
             <a target="_blank">
               <Image
-                src="/twitter.png"
+                src="/Twitter.png"
                 layout="fixed"
                 width={25}
                 height={31}
@@ -73,7 +73,7 @@ const Introduction = () => {
           <Tooltip title="+4915202872609" placement="bottom">
             <Button>
               <Image
-                src="/whatsapp.png"
+                src="/WhatsApp.png"
                 layout="fixed"
                 height={31}
                 width={25}
