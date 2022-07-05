@@ -4,7 +4,7 @@ import tw from "tailwind-styled-components";
 import AboutMe from "../components/AboutMe";
 import MySkills from "../components/MySkills";
 import Contact from "../components/Contact";
-import Sidebar from "../components/Sidebar";
+import SideBar from "../components/SiBebar";
 import dynamic from "next/dynamic";
 import ScrollToTop from "react-scroll-to-top";
 import ArrowCircleUpIcon from "@mui/icons-material/ArrowCircleUp";
@@ -38,7 +38,7 @@ export default function Home() {
           style={{ color: "accent", backgroundColor: "rgba(255,255,255,.7)" }}
           component={<ArrowCircleUpIcon fontSize="large" />}
         />
-        <Sidebar showMenu={showMenu} toggleMenu={toggleMenu} />
+        <SideBar showMenu={showMenu} toggleMenu={toggleMenu} />
         <Menu toggleMenu={toggleMenu} showMenu={showMenu}/>
 
         <Introduction/>
