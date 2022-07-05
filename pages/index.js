@@ -4,7 +4,7 @@ import tw from "tailwind-styled-components";
 import AboutMe from "../components/AboutMe";
 import MySkills from "../components/MySkills";
 import Contact from "../components/Contact";
-import SideBar from "../components/Sidebar";
+import SideBar from "../components/SideBar";
 import dynamic from "next/dynamic";
 import ScrollToTop from "react-scroll-to-top";
 import ArrowCircleUpIcon from "@mui/icons-material/ArrowCircleUp";
