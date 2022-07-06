@@ -34,7 +34,7 @@ const Contact = () => {
         <div className="lg:row-start-2 lg:col-start-2 lg:col-span-1">
           <ContactItem
             icon="/email.png"
-            detail="lars@larsjensen.dev"
+            detail="mail@larsjensen.dev"
             size={[29, 28]}
             fontSize="xl"
             className="lg:row-start-2 lg:col-start-2 lg:col-span-1"

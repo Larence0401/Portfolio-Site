@@ -28,7 +28,7 @@ const Introduction = () => {
       <Portrait>
         <ImageWrapper>
           <BackgroundCircle className="top-0 right-0 lg:top-4 right-4" />
-          <BackgroundCircle className="bottom-0 left-0 lg:bottom-4 right-4" />
+          <BackgroundCircle className="bottom-4 left-2 lg:bottom-4 right-4" />
           <ImageContainer>
             <Image
               src="/bwportrait.png"
@@ -180,6 +180,8 @@ bg-white
 opacity-[5%]
 rounded-full
 w-[9vw]
+min-w-[80px]
+min-h-[80px]
 h-[9vw]
 absolute
 `;

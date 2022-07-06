@@ -11,11 +11,11 @@ const Project = ({
   imageSrc,
   github,
   live,
+  youtube,
 }) => {
   const [hovered, setHovered] = useState(false);
 
   const hoverClass = hovered ? "scale-125" : null;
-  console.log(live)
 
   return (
     <Container
@@ -35,15 +35,20 @@ const Project = ({
         {description}
       </Description>
       {(inView || window.innerWidth >= 768) && (
-        <ProjectLinks hovered={hovered} github={github} live={live}/>
+        <ProjectLinks
+          hovered={hovered}
+          github={github}
+          live={live}
+          youtube={youtube}
+        />
       )}
-      <Image
-        src={imageSrc}
-        width="100%"
-        height="100%"
-        className="object-fill"
-        layout="fill"
-      />
+        <Image
+          src={imageSrc}
+          width="100%"
+          height="100%"
+          className="object-fill scale-105"
+          layout="fill"
+        />
     </Container>
   );
 };
@@ -54,7 +59,7 @@ w-full
 md:h-[33vw]
 lg:max-h-[400px]
 min-h-[260px]
-rounded-sm
+rounded-xl
 overflow-hidden
 relative
 hover:cursor-pointer

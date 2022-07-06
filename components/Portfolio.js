@@ -1,4 +1,3 @@
-
 import { useInView } from "react-intersection-observer";
 import tw from "tailwind-styled-components";
 import Project from "./Project";
@@ -16,7 +15,14 @@ const Portfolio = () => {
     rootMargin: "-100px 0px -100px 0px",
     threshold: 1,
   });
-  const [ref4, inView4] = useInView({ threshold: 1 });
+  const [ref4, inView4] = useInView({
+    rootMargin: "-100px 0px -100px 0px",
+    threshold: 1,
+  });
+  const [ref5, inView5] = useInView({
+    rootMargin: "-100px 0px -100px 0px",
+    threshold: 1,
+  });
 
   return (
     <Wrapper id="portfolio">
@@ -30,6 +36,7 @@ const Portfolio = () => {
           imageSrc="/projectone.png"
           github="https://github.com/Larence0401/tripmeister"
           live="https://tripmeister.vercel.app"
+          youtube="https://www.youtube.com/watch?v=JUOKM6nD89w&ab_channel=NicolasCorbalanCalvo"
         />
         <Project
           reference={ref2}
@@ -48,7 +55,6 @@ const Portfolio = () => {
           imageSrc="/projectthree.png"
           github="https://github.com/Larence0401/JuggleFox"
           live="https://juggle-fox.vercel.app/"
-          
         />
         <Project
           reference={ref4}
@@ -59,7 +65,14 @@ const Portfolio = () => {
           github="https://github.com/Larence0401/Movie-Memory-Quiz"
           live="https://movie-memory-quiz.vercel.app/"
         />
-       
+        <Project
+          reference={ref5}
+          name="Portfolio"
+          description="please find the Github repository for this portfolio site under the link below."
+          inView={inView5}
+          imageSrc="/projectsix.jpg"
+          github="https://vercel.com/larence0401/portfolio-site"
+        />
       </ProjectContainer>
     </Wrapper>
   );
@@ -72,7 +85,7 @@ text-white
 items-center
 mb-12
 md:grid
-max-w-[1140px]
+max-w-[1220px]
 w-full
 `;
 
@@ -94,11 +107,9 @@ const ProjectContainer = tw.div`
 grid
 grid-cols-1
 md:grid-cols-2
-md:gap-3
+gap-3
 lg:gap-6
 w-full
 `;
-
-
 
 export default Portfolio;

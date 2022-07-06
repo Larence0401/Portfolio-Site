@@ -1,99 +1,30 @@
 import React from "react";
 import tw from "tailwind-styled-components";
-import Image from "next/image";
+import Skill from "./Skill";
 
 const MySkills = () => {
+  const skills = [
+    ["/javascript.png", "Javascript"],
+    ["/css.png", "CSS 3"],
+    ["/git.png", "Git Source Control"],
+    ["/firebase.png", "Firebase"],
+    ["/React.png", "React JS"],
+    ["/NextJS.png", "Next JS"],
+    ["/Tailwind.png", "Tailwind CSS"],
+    ["/StyledComp.png", "Styled Components"],
+    ["/Jest.svg", "Jest"],
+    ["/Redux.png", "Redux"],
+    ["/Context.png", "Context API"],
+    ["/RestAPI.png", "RESTful APIs"],
+  ];
+
   return (
     <Wrapper id="skills">
       <Headline>My Skills</Headline>
       <Stack>
-        <Tile>
-          <Image
-            src="/javascript.png"
-            layout="fixed"
-            width={100}
-            height={106}
-          />
-          <p>JavaScript</p>
-        </Tile>
-        <Tile><Image
-            src="/css.png"
-            layout="fixed"
-            width={76}
-            height={100}
-          />
-          <p>CSS 3</p></Tile>
-        <Tile><Image
-            src="/git.png"
-            layout="fixed"
-            width={89}
-            height={100}
-          />
-          <p>Git Source Control</p></Tile>
-        <Tile><Image
-            src="/firebase.png"
-            layout="fixed"
-            width={70}
-            height={106}
-          />
-          <p>Firebase</p></Tile>
-        <Tile><Image
-            src="/React.png"
-            layout="fixed"
-            width={76}
-            height={100}
-          />
-          <p>React JS</p></Tile>
-        <Tile><Image
-            src="/NextJS.png"
-            layout="fixed"
-            width={79}
-            height={100}
-          />
-          <p>Next JS</p></Tile>
-          <Tile><Image
-            src="/Tailwind.png"
-            layout="fixed"
-            width={57}
-            height={68}
-          />
-          <p className="mt-2">Tailwind CSS</p></Tile>
-          <Tile><Image
-            src="/StyledComp.png"
-            layout="fixed"
-            width={128}
-            height={89}
-          />
-          <p>Styled Components</p></Tile>
-          <Tile><Image
-            src="/Jest.svg"
-            layout="fixed"
-            width={82}
-            height={100}
-          />
-          <p>Jest</p></Tile>
-          <Tile><Image
-            src="/Redux.png"
-            layout="fixed"
-            width={78}
-            height={100}
-          />
-          <p>Redux</p></Tile>
-          <Tile><Image
-            src="/Context.png"
-            layout="fixed"
-            width={82}
-            height={100}
-          />
-          <p>Context API</p></Tile>
-          <Tile><Image
-            src="/RestAPI.png"
-            layout="fixed"
-            width={78}
-            height={100}
-          />
-          <p>RESTful APIs</p></Tile>
-
+        {skills.map((el) => {
+          return <Skill fileName={el[0]} skill={el[1]} />;
+        })}
       </Stack>
     </Wrapper>
   );
@@ -104,7 +35,7 @@ flex
 flex-col
 text-white
 mb-8
-max-w-[1140px]
+max-w-[1220px]
 w-full
 lg:mb-32
 `;
