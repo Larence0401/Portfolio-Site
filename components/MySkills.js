@@ -22,8 +22,8 @@ const MySkills = () => {
     <Wrapper id="skills">
       <Headline>My Skills</Headline>
       <Stack>
-        {skills.map((el) => {
-          return <Skill fileName={el[0]} skill={el[1]} />;
+        {skills.map((el,i) => {
+          return <Skill fileName={el[0]} skill={el[1]} key={i}/>;
         })}
       </Stack>
     </Wrapper>
