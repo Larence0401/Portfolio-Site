@@ -112,7 +112,7 @@ flex
 text-white
 w-full
 items-center
-mb-8
+mb-16
 `;
 
 const ContactMe = tw.div`
