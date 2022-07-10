@@ -75,7 +75,7 @@ const Contact = () => {
             </a>
           </Link>
           <Link href="https://www.linkedin.com/in/lars-jensen-6829b3244/">
-            <a href="target_blank">
+            <a target="target_blank">
               <Image
                 src="/LinkedIn 2.png"
                 layout="fixed"
