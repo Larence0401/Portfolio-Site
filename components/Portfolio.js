@@ -66,7 +66,7 @@ const Portfolio = () => {
           imageSrc="/projectfour.png"
           github="https://github.com/Larence0401/Movie-Memory-Quiz"
           live="https://movie-memory-quiz.vercel.app/"
-          youtube="https://tinyurl.com/mr2h2rbp"
+          youtube="https://tinyurl.com/5n7ezzz5"
         />
         <Project
           reference={ref5}
