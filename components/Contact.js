@@ -3,8 +3,8 @@ import tw from "tailwind-styled-components";
 import ContactItem from "./ContactItem";
 import Image from "next/image";
 import Link from "next/link";
-import Tooltip from '@mui/material/Tooltip';
-import Button from '@mui/material/Button';
+import Tooltip from "@mui/material/Tooltip";
+import Button from "@mui/material/Button";
 
 const Contact = () => {
   return (
@@ -52,7 +52,7 @@ const Contact = () => {
       <Headline className="mt-4">
         <OrangeBar></OrangeBar>
         <SocialMedia>
-        <Link href="https://www.facebook.com/lars.jensen.146/">
+          <Link href="https://www.facebook.com/lars.jensen.146/">
             <a target="_blank">
               <Image
                 src="/Facebook.png"
@@ -74,13 +74,17 @@ const Contact = () => {
               />
             </a>
           </Link>
-          <Image
-            src="/LinkedIn 2.png"
-            layout="fixed"
-            height={31}
-            width={25}
-            className="hover:scale-125"
-          />
+          <Link href="https://www.linkedin.com/in/lars-jensen-6829b3244/">
+            <a href="target_blank">
+              <Image
+                src="/LinkedIn 2.png"
+                layout="fixed"
+                height={31}
+                width={25}
+                className="hover:scale-125"
+              />
+            </a>
+          </Link>
           <Tooltip title="+4915202872609" placement="bottom">
             <div>
               <Image
