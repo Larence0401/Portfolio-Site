@@ -36,7 +36,7 @@ const Portfolio = () => {
           imageSrc="/projectone.png"
           github="https://github.com/Larence0401/tripmeister"
           live="https://tripmeister.vercel.app"
-          youtube="https://www.youtube.com/watch?v=JUOKM6nD89w&ab_channel=NicolasCorbalanCalvo"
+          youtube="https://tinyurl.com/55cbfhrs"
         />
         <Project
           reference={ref2}
@@ -46,6 +46,7 @@ const Portfolio = () => {
           imageSrc="/projecttwo.png"
           github="https://github.com/Larence0401/Lingogee"
           live="https://lingogee.vercel.app"
+          youtube="https://tinyurl.com/bdhb4zur"
         />
         <Project
           reference={ref3}
@@ -55,6 +56,7 @@ const Portfolio = () => {
           imageSrc="/projectthree.png"
           github="https://github.com/Larence0401/JuggleFox"
           live="https://juggle-fox.vercel.app/"
+          youtube="https://tinyurl.com/mr2h2rbp"
         />
         <Project
           reference={ref4}
@@ -64,6 +66,7 @@ const Portfolio = () => {
           imageSrc="/projectfour.png"
           github="https://github.com/Larence0401/Movie-Memory-Quiz"
           live="https://movie-memory-quiz.vercel.app/"
+          youtube="https://tinyurl.com/mr2h2rbp"
         />
         <Project
           reference={ref5}

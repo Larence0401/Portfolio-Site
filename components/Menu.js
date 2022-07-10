@@ -11,7 +11,7 @@ const Menu = ({ toggleMenu, showMenu }) => {
     <Wrapper>
       <Name>
         <p className="font-rubik font-bold text-2xl leading-8 text-[#FAFAFA] md:text-4xl">
-          Lars Jensen
+          Lars Jensen<span className="text-accent">.</span>
         </p>
       </Name>
       <Hamburger toggleMenu={toggleMenu} showMenu={showMenu} />

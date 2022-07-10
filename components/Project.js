@@ -46,7 +46,7 @@ const Project = ({
           src={imageSrc}
           width="100%"
           height="100%"
-          className="object-fill scale-105"
+          className="object-cover scale-105"
           layout="fill"
         />
     </Container>
