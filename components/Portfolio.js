@@ -46,7 +46,7 @@ const Portfolio = () => {
           imageSrc="/projecttwo.png"
           github="https://github.com/Larence0401/Lingogee"
           live="https://lingogee.vercel.app"
-          youtube="https://tinyurl.com/bdhb4zur"
+          youtube="https://youtu.be/hWqLoHD88Dk"
         />
         <Project
           reference={ref3}
@@ -74,7 +74,7 @@ const Portfolio = () => {
           description="please find the Github repository for this portfolio site under the link below."
           inView={inView5}
           imageSrc="/projectsix.jpg"
-          github="https://vercel.com/larence0401/portfolio-site"
+          github="https://github.com/Larence0401/Portfolio-Site"
         />
       </ProjectContainer>
     </Wrapper>
