@@ -27,7 +27,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Create Next App</title>
+        <title>Lars Jensen, web developer</title>
         <meta name="description" content="Hi, I am Lars Jensen, frontend developer from Berlin. I mainly develop in ReactJs, NextJs and Firebase" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <link rel="icon" href="/favicon.png" />
