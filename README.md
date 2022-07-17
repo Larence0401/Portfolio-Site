@@ -36,12 +36,7 @@ First and foremost, I built this site for showcasing my software projects. Build
 
 ## How to use the project
 
-Some ideas for additional feature you could add to the app:
-
-- the user can select between several topographical maps
-- route building for hikes and cycling tours on each stop
-- more detailed info an accommodations provided by Google Places Api
-- the user can add flights to the trip
+You can use this repo as a template for your own portfolio page.
 
 ## Deploy on Vercel
 
